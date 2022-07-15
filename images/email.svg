@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg2"
+    inkscape:version="0.48.2 r9819"
+    viewBox="0 0 1250 774.16"
+    version="1.1"
+    sodipodi:docname="New document 1"
+  >
+  <sodipodi:namedview
+      id="base"
+      fit-margin-left="7"
+      inkscape:zoom="0.35"
+      borderopacity="1.0"
+      inkscape:current-layer="g3567"
+      inkscape:cx="608.584"
+      inkscape:cy="497.21243"
+      inkscape:window-maximized="1"
+      showgrid="false"
+      fit-margin-right="7"
+      showguides="true"
+      bordercolor="#666666"
+      inkscape:window-x="0"
+      inkscape:guide-bbox="true"
+      inkscape:window-y="30"
+      fit-margin-bottom="7"
+      inkscape:window-width="1280"
+      inkscape:pageopacity="0.0"
+      inkscape:pageshadow="2"
+      pagecolor="#ffffff"
+      inkscape:document-units="px"
+      inkscape:window-height="717"
+      fit-margin-top="7"
+  />
+  <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+      transform="translate(231.79 -568.65)"
+    >
+    <g
+        id="g3567"
+        inkscape:transform-center-x="-357.14286"
+        inkscape:transform-center-y="151.42857"
+        inkscape:label="Octahedron:x0.00:x0.00:x0.00:x0.00:x0.00:x0.00"
+        transform="matrix(8.451 0 0 6.6022 756.8 924.85)"
+      >
+      <g
+          id="g3596"
+          transform="matrix(1.4265 0 0 1.122 49.452 6.4711)"
+        >
+        <path
+            id="path3569"
+            style="stroke-linejoin:round;stroke:#000000;stroke-width:2;fill:#ff0000"
+            inkscape:label="Face:6"
+            inkscape:connector-curvature="0"
+            d="m-64.574-1.2983-50 50v-100z"
+        />
+        <path
+            id="path3571"
+            style="stroke-linejoin:round;stroke:#000000;stroke-width:2;fill:#ff0000"
+            inkscape:label="Face:4"
+            inkscape:connector-curvature="0"
+            d="m-14.574 48.702h-100l50-50z"
+        />
+        <path
+            id="path3573"
+            style="stroke-linejoin:round;stroke:#000000;stroke-width:2;fill:#ff0000"
+            inkscape:label="Face:5"
+            inkscape:connector-curvature="0"
+            d="m-14.574 48.702-50-50 50-50z"
+        />
+        <path
+            id="path3575"
+            style="stroke-linejoin:round;stroke:#000000;stroke-width:2.3314;fill:#8a0000"
+            inkscape:label="Face:7"
+            inkscape:connector-curvature="0"
+            d="m-14.912-51.731-50 67.944-50-67.944z"
+        />
+      </g
+      >
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Postal Cover</dc:title
+        >
+        <dc:date
+          >2012-01-19T10:33:18</dc:date
+        >
+        <dc:description
+          >Postal Cover</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/167233/postal-cover-by-navaneethks</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >navaneethks</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >Cover</rdf:li
+            >
+            <rdf:li
+              >Postal</rdf:li
+            >
+            <rdf:li
+              >post</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
