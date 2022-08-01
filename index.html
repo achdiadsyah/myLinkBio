@@ -8,6 +8,11 @@
         <link rel="preload" href="./images/bg01.jpg" as="image" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+        ></script>
         <script>
             window.addEventListener("DOMContentLoaded", () => {
                 VANTA.BIRDS({
@@ -33,6 +38,32 @@
                     main.style.opacity = 1;
                     main.style.filter = "blur(0px)";
                 }, 1000);
+            });
+        </script>
+        <script>
+            function fetchdata() {
+                var artists = "";
+                $.ajax({
+                    url: "now-playing.php",
+                    type: "get",
+                    dataType: "json",
+                    success: function (data) {
+                        if (data.is_playing == true) {
+                            $.each(data.item.artists, function (index, value) {
+                                artists += `<a class="artist-name" href="${data.item.external_urls.spotify}">${value.name}</a>`;
+                            });
+                            var title = `<a class="songs-name" href="${data.item.external_urls.spotify}">${data.item.name}</a>`;
+                            $("#track_now").html(title + " <br> By " + artists);
+                        } else {
+                            $("#track_now").html("Not Playing Anything");
+                        }
+                    },
+                });
+            }
+
+            $(document).ready(function () {
+                // setTimeout(fetchdata, 5000);
+                fetchdata();
             });
         </script>
     </head>
@@ -91,6 +122,26 @@
                         eMail
                     </a>
                 </li>
+                <div class="now-playing">
+                    <table width="100%">
+                        <tr>
+                            <td style="vertical-align: center">
+                                <img
+                                    src="./images/spotify.svg"
+                                    alt="Spotify"
+                                    width="80"
+                                />
+                            </td>
+                            <td style="width: 100%">
+                                <span class="track_now_title"
+                                    >Now I'm Listening To</span
+                                >
+                                <br />
+                                <span id="track_now"></span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </ul>
         </main>
     </body>
